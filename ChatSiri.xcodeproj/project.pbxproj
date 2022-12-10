@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F76AA3293F2BBB002A55EC /* ChatSiriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F76AA2293F2BBB002A55EC /* ChatSiriApp.swift */; };
+		09F76AA5293F2BBB002A55EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F76AA4293F2BBB002A55EC /* ContentView.swift */; };
+		09F76AA7293F2BBD002A55EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F76AA6293F2BBD002A55EC /* Assets.xcassets */; };
+		09F76AAA293F2BBD002A55EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F76AA9293F2BBD002A55EC /* Preview Assets.xcassets */; };
+		09F76AB4293F2BBD002A55EC /* ChatSiriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F76AB3293F2BBD002A55EC /* ChatSiriTests.swift */; };
+		09F76ABE293F2BBD002A55EC /* ChatSiriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F76ABD293F2BBD002A55EC /* ChatSiriUITests.swift */; };
+		09F76AC0293F2BBD002A55EC /* ChatSiriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F76ABF293F2BBD002A55EC /* ChatSiriUITestsLaunchTests.swift */; };
+		09F76ACD293F30BE002A55EC /* SpeechViewMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F76ACC293F30BE002A55EC /* SpeechViewMeetingView.swift */; };
+		09F76AD029434167002A55EC /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F76ACF29434167002A55EC /* SpeechRecognizer.swift */; };
+		09F76AD429445126002A55EC /* sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09F76AD329445126002A55EC /* sample.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F76AB0293F2BBD002A55EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F76A97293F2BBB002A55EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F76A9E293F2BBB002A55EC;
+			remoteInfo = ChatSiri;
+		};
+		09F76ABA293F2BBD002A55EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F76A97293F2BBB002A55EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F76A9E293F2BBB002A55EC;
+			remoteInfo = ChatSiri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F76A9F293F2BBB002A55EC /* ChatSiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatSiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F76AA2293F2BBB002A55EC /* ChatSiriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSiriApp.swift; sourceTree = "<group>"; };
+		09F76AA4293F2BBB002A55EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09F76AA6293F2BBD002A55EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09F76AA9293F2BBD002A55EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09F76AAF293F2BBD002A55EC /* ChatSiriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatSiriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F76AB3293F2BBD002A55EC /* ChatSiriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSiriTests.swift; sourceTree = "<group>"; };
+		09F76AB9293F2BBD002A55EC /* ChatSiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatSiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F76ABD293F2BBD002A55EC /* ChatSiriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSiriUITests.swift; sourceTree = "<group>"; };
+		09F76ABF293F2BBD002A55EC /* ChatSiriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSiriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09F76ACC293F30BE002A55EC /* SpeechViewMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewMeetingView.swift; sourceTree = "<group>"; };
+		09F76ACE293F3148002A55EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		09F76ACF29434167002A55EC /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		09F76AD329445126002A55EC /* sample.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F76A9C293F2BBB002A55EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F76AAC293F2BBD002A55EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F76AB6293F2BBD002A55EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F76A96293F2BBB002A55EC = {
+			isa = PBXGroup;
+			children = (
+				09F76AA1293F2BBB002A55EC /* ChatSiri */,
+				09F76AB2293F2BBD002A55EC /* ChatSiriTests */,
+				09F76ABC293F2BBD002A55EC /* ChatSiriUITests */,
+				09F76AA0293F2BBB002A55EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F76AA0293F2BBB002A55EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F76A9F293F2BBB002A55EC /* ChatSiri.app */,
+				09F76AAF293F2BBD002A55EC /* ChatSiriTests.xctest */,
+				09F76AB9293F2BBD002A55EC /* ChatSiriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09F76AA1293F2BBB002A55EC /* ChatSiri */ = {
+			isa = PBXGroup;
+			children = (
+				09F76ACE293F3148002A55EC /* Info.plist */,
+				09F76AA2293F2BBB002A55EC /* ChatSiriApp.swift */,
+				09F76AA4293F2BBB002A55EC /* ContentView.swift */,
+				09F76AA6293F2BBD002A55EC /* Assets.xcassets */,
+				09F76AA8293F2BBD002A55EC /* Preview Content */,
+				09F76ACC293F30BE002A55EC /* SpeechViewMeetingView.swift */,
+				09F76ACF29434167002A55EC /* SpeechRecognizer.swift */,
+				09F76AD329445126002A55EC /* sample.txt */,
+			);
+			path = ChatSiri;
+			sourceTree = "<group>";
+		};
+		09F76AA8293F2BBD002A55EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09F76AA9293F2BBD002A55EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09F76AB2293F2BBD002A55EC /* ChatSiriTests */ = {
+			isa = PBXGroup;
+			children = (
+				09F76AB3293F2BBD002A55EC /* ChatSiriTests.swift */,
+			);
+			path = ChatSiriTests;
+			sourceTree = "<group>";
+		};
+		09F76ABC293F2BBD002A55EC /* ChatSiriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09F76ABD293F2BBD002A55EC /* ChatSiriUITests.swift */,
+				09F76ABF293F2BBD002A55EC /* ChatSiriUITestsLaunchTests.swift */,
+			);
+			path = ChatSiriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F76A9E293F2BBB002A55EC /* ChatSiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F76AC3293F2BBD002A55EC /* Build configuration list for PBXNativeTarget "ChatSiri" */;
+			buildPhases = (
+				09F76A9B293F2BBB002A55EC /* Sources */,
+				09F76A9C293F2BBB002A55EC /* Frameworks */,
+				09F76A9D293F2BBB002A55EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatSiri;
+			productName = ChatSiri;
+			productReference = 09F76A9F293F2BBB002A55EC /* ChatSiri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09F76AAE293F2BBD002A55EC /* ChatSiriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F76AC6293F2BBD002A55EC /* Build configuration list for PBXNativeTarget "ChatSiriTests" */;
+			buildPhases = (
+				09F76AAB293F2BBD002A55EC /* Sources */,
+				09F76AAC293F2BBD002A55EC /* Frameworks */,
+				09F76AAD293F2BBD002A55EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F76AB1293F2BBD002A55EC /* PBXTargetDependency */,
+			);
+			name = ChatSiriTests;
+			productName = ChatSiriTests;
+			productReference = 09F76AAF293F2BBD002A55EC /* ChatSiriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09F76AB8293F2BBD002A55EC /* ChatSiriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F76AC9293F2BBD002A55EC /* Build configuration list for PBXNativeTarget "ChatSiriUITests" */;
+			buildPhases = (
+				09F76AB5293F2BBD002A55EC /* Sources */,
+				09F76AB6293F2BBD002A55EC /* Frameworks */,
+				09F76AB7293F2BBD002A55EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F76ABB293F2BBD002A55EC /* PBXTargetDependency */,
+			);
+			name = ChatSiriUITests;
+			productName = ChatSiriUITests;
+			productReference = 09F76AB9293F2BBD002A55EC /* ChatSiriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F76A97293F2BBB002A55EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					09F76A9E293F2BBB002A55EC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					09F76AAE293F2BBD002A55EC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 09F76A9E293F2BBB002A55EC;
+					};
+					09F76AB8293F2BBD002A55EC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 09F76A9E293F2BBB002A55EC;
+					};
+				};
+			};
+			buildConfigurationList = 09F76A9A293F2BBB002A55EC /* Build configuration list for PBXProject "ChatSiri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09F76A96293F2BBB002A55EC;
+			productRefGroup = 09F76AA0293F2BBB002A55EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F76A9E293F2BBB002A55EC /* ChatSiri */,
+				09F76AAE293F2BBD002A55EC /* ChatSiriTests */,
+				09F76AB8293F2BBD002A55EC /* ChatSiriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F76A9D293F2BBB002A55EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F76AAA293F2BBD002A55EC /* Preview Assets.xcassets in Resources */,
+				09F76AD429445126002A55EC /* sample.txt in Resources */,
+				09F76AA7293F2BBD002A55EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F76AAD293F2BBD002A55EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F76AB7293F2BBD002A55EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F76A9B293F2BBB002A55EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F76AA5293F2BBB002A55EC /* ContentView.swift in Sources */,
+				09F76AD029434167002A55EC /* SpeechRecognizer.swift in Sources */,
+				09F76ACD293F30BE002A55EC /* SpeechViewMeetingView.swift in Sources */,
+				09F76AA3293F2BBB002A55EC /* ChatSiriApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F76AAB293F2BBD002A55EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F76AB4293F2BBD002A55EC /* ChatSiriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F76AB5293F2BBD002A55EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F76AC0293F2BBD002A55EC /* ChatSiriUITestsLaunchTests.swift in Sources */,
+				09F76ABE293F2BBD002A55EC /* ChatSiriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F76AB1293F2BBD002A55EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F76A9E293F2BBB002A55EC /* ChatSiri */;
+			targetProxy = 09F76AB0293F2BBD002A55EC /* PBXContainerItemProxy */;
+		};
+		09F76ABB293F2BBD002A55EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F76A9E293F2BBB002A55EC /* ChatSiri */;
+			targetProxy = 09F76ABA293F2BBD002A55EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09F76AC1293F2BBD002A55EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09F76AC2293F2BBD002A55EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09F76AC4293F2BBD002A55EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatSiri/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatSiri/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = Microphone;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = Speech;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.killongtime.ChatSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09F76AC5293F2BBD002A55EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatSiri/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatSiri/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = Microphone;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = Speech;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.killongtime.ChatSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09F76AC7293F2BBD002A55EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.killongtime.ChatSiriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatSiri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatSiri";
+			};
+			name = Debug;
+		};
+		09F76AC8293F2BBD002A55EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.killongtime.ChatSiriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatSiri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatSiri";
+			};
+			name = Release;
+		};
+		09F76ACA293F2BBD002A55EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.killongtime.ChatSiriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatSiri;
+			};
+			name = Debug;
+		};
+		09F76ACB293F2BBD002A55EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.killongtime.ChatSiriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatSiri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F76A9A293F2BBB002A55EC /* Build configuration list for PBXProject "ChatSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F76AC1293F2BBD002A55EC /* Debug */,
+				09F76AC2293F2BBD002A55EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F76AC3293F2BBD002A55EC /* Build configuration list for PBXNativeTarget "ChatSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F76AC4293F2BBD002A55EC /* Debug */,
+				09F76AC5293F2BBD002A55EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F76AC6293F2BBD002A55EC /* Build configuration list for PBXNativeTarget "ChatSiriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F76AC7293F2BBD002A55EC /* Debug */,
+				09F76AC8293F2BBD002A55EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F76AC9293F2BBD002A55EC /* Build configuration list for PBXNativeTarget "ChatSiriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F76ACA293F2BBD002A55EC /* Debug */,
+				09F76ACB293F2BBD002A55EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09F76A97293F2BBB002A55EC /* Project object */;
+}
